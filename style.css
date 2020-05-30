@@ -20,6 +20,7 @@ header h1 {
 }
 
 .score-board {
+    text-align: center;
     border: 3px solid white;
     border-radius: 4px;
     width: 200px;
@@ -41,14 +42,16 @@ header h1 {
 
 #user-label {
   position: absolute;
-  top: 20px;
+  top: 30px;
   left: -25px;
+  padding: 5px 10px;
 }
 
 #computer-label {
   position: absolute;
   top: 30px;
-  right: -30px;
+  right: -28px;
+  padding: 5px 10px;
 }
 
 .result {
@@ -88,5 +91,5 @@ header h1 {
   font-family: Asap, sans-serif;
   font-weight: bold;
   font-size: 20px;
-  margin-top: top;
+  margin-top: 20px;
 }
